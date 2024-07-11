@@ -1,10 +1,11 @@
 from datetime import datetime
 
-from core import models as core_models
-from core import serializers as core_serializers
 from rest_framework import status
 from rest_framework.response import Response
 from rest_framework.views import APIView
+
+from core import models as core_models
+from core import serializers as core_serializers
 
 
 class SearchEventAPIView(APIView):

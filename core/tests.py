@@ -1,11 +1,12 @@
 from datetime import datetime
 
 import requests_mock
-from core import models as core_models
 from django.core.management import call_command
 from django.test import TestCase
 from django.urls import reverse
 from rest_framework.test import APIClient
+
+from core import models as core_models
 
 
 class EventModelTestCase(TestCase):

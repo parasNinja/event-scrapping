@@ -3,8 +3,9 @@ from datetime import datetime
 
 import requests
 import xmltodict
-from core import models as core_models
 from django.core.management.base import BaseCommand
+
+from core import models as core_models
 
 logger = logging.getLogger(__name__)
 

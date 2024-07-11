@@ -1,6 +1,7 @@
 # Register your models here.
-from core.models import Event
 from django.contrib import admin
+
+from core.models import Event
 
 
 class EventAdmin(admin.ModelAdmin):

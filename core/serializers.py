@@ -1,5 +1,6 @@
-from core import models as core_models
 from rest_framework import serializers
+
+from core import models as core_models
 
 
 class EventSerializer(serializers.ModelSerializer):
